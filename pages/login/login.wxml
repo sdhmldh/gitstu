@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+<text>pages/login/login.wxml</text>
+<view>您输入了：{{message}}</view>
+<input value="{{message}}" bindinput="bindText"></input>
+<view class="userInfo">
+  <text>手机号:</text>
+  <input value="{{phone}}" bindinput="bindPhone" placeholder="请输入手机号"></input>
+  <text>验证码：</text><view bindtap="checkCode">点击获取验证码</view>
+  <input value="{{code}}" bindinput="bindCode" placeholder="请输入验证码"></input>
+  <button bindtap="login">登录</button>
+</view>

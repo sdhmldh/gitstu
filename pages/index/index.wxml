@@ -1,0 +1,36 @@
+<!--pages/index/index.wxml-->
+<view class="menu">
+	<view class="item" bindtap="clickMe" data-id="123" data-name="liudonghai">
+		<image src="/static/goods/xrmga.jpg"></image>
+		<text>精品裙子</text>
+	</view>
+	<view class="item">
+		<image src="/static/goods/xrmgd.jpg"></image>
+		<text>小视频</text>
+	</view>
+	<view class="item">
+		<image src="/static/goods/xrmgc.jpg"></image>
+		<text>名人堂</text>
+	</view>
+	<view class="item">
+		<image src="/static/goods/xrmgf.jpg"></image>
+		<text>观点说</text>
+	</view>
+</view>
+<view class="goodsList">
+	<text class="goodsTitle">第一场 JK小裙子专场</text>
+	<view class="goodsStatus">
+		<text>2020年4月25日 11:34:43</text>
+		<text>250次围观</text>
+	</view>
+	<view class="goodsImg">
+		<image src="/static/goods/xrmgf.jpg"></image>
+	</view>
+	<view class="goodsOther">
+		<image src="/static/goods/xrmgd.jpg"></image>
+		<image src="/static/goods/xrmga.jpg"></image>
+		<image src="/static/goods/xrmgc.jpg"></image>
+		<image src="/static/goods/xrmgf.jpg"></image>
+	</view>
+
+</view>

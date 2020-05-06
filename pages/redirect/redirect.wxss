@@ -1,0 +1,5 @@
+/* pages/redirect/redirect.wxss */
+image{
+ height: 200rpx;
+ width: 200rpx;
+}

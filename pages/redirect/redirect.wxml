@@ -1,0 +1,18 @@
+<!--pages/redirect/redirect.wxml-->
+<text>绑定的数据：{{messgae}}</text>
+<button bindtap="changeData" data-name="刘东海">修改数据</button>
+<button bindtap="changeDataT" data-name="刘东海">修改数据</button>
+<text>当前用户：{{userName}}</text>
+<image src="{{path}}"></image>
+<button bindtap="getUSerInfo" open-type="getUserInfo">获取当前用户信息</button>  
+<view bindtap="getLocalPath">{{localPath}}</view>
+<view>
+<view wx:for="{{dataList}}">{{index}}-{{item}}</view>
+</view>
+<view>
+<view wx:for="{{dataDic}}">{{index}}-{{item}}</view>
+</view>
+<button bindtap="uploadImage">上传图片</button>
+<view>
+  <image wx:for="{{imageList}}" src="{{item}}"> </image>
+</view>

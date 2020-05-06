@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/message/message",
+    "pages/redirect/redirect",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "拍卖专场"
+  },
+  "tabBar": {
+    "color": "#1296db",
+    "selectedColor": "#CD5C5C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/account.png",
+        "selectedIconPath": "/static/account_press.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "信息",
+        "iconPath": "/static/message.png",
+        "selectedIconPath": "/static/message_press.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "个人",
+        "iconPath": "/static/cangchu.png",
+        "selectedIconPath": "/static/cangchu_press.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap24.json"
+}
